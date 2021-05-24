@@ -2,16 +2,16 @@ import requests
 from datetime import datetime
 import os
 
-GENDER = input("What is your gender (m/f)? ")
-WEIGHT_KG = input("What is your weight, in kg? ")
-HEIGHT_CM = input("What is your height, in cm? ")
-AGE = input("What is your age, in years? ")
+GENDER = "m"
+WEIGHT_KG = 105
+HEIGHT_CM = 61
+AGE = 38
 
 # APP_ID = os.getenv("YOUR_APP_ID")
 
 # API_KEY = os.environ['YOUR_API_KEY']
 APP_ID = "694db304"
-print(APP_ID)
+# print(APP_ID)
 API_KEY = "9938ea2a5061eddc569598dba7609ebe"
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
